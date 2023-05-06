@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BetBlitz Fortune - Delete User Data</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		body {
+			background-color: #f5f5f5;
+			font-family: Arial, sans-serif;
+			font-size: 16px;
+			color: #333;
+			margin: 0;
+			padding: 0;
+		}
+
+		.container {
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 50px;
+			background-color: #fff;
+			box-shadow: 0 0 10px rgba(0,0,0,.2);
+		}
+
+		h1 {
+			font-size: 36px;
+			font-weight: bold;
+			margin-top: 0;
+		}
+
+		p {
+			font-size: 18px;
+			line-height: 1.5;
+		}
+
+		form {
+			margin-top: 30px;
+		}
+
+		label {
+			display: block;
+			font-size: 18px;
+			font-weight: bold;
+			margin-bottom: 10px;
+		}
+
+		input[type="email"] {
+			width: 100%;
+			padding: 10px;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+			font-size: 16px;
+			margin-bottom: 20px;
+			box-sizing: border-box;
+		}
+
+		input[type="submit"] {
+			background-color: #ff7f00;
+			color: #fff;
+			border: none;
+			padding: 10px 20px;
+			border-radius: 5px;
+			font-size: 18px;
+			cursor: pointer;
+		}
+
+		input[type="submit"]:hover {
+			background-color: #e66000;
+		}
+
+		.footer {
+			background-color: #333;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+			margin-top: 50px;
+		}
+
+		.footer p {
+			margin: 0;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>BetBlitz Fortune - Delete User Data</h1>
+		<p>Please enter your email address to delete your data from our system.</p>
+		<form>
+			<label for="email">Email Address</label>
+			<input type="email" id="email" name="email" required>
+			<input type="submit" value="Delete My Data">
+		</form>
+		<p>We will permanently delete your personal information, including your name, email address, and history. However, we may retain some anonymous statistical data for analytical purposes.</p>
+	</div>
+
+	<footer class="footer">
+		<p>&copy; 2023 BetBlitz Fortune. All rights reserved.</p>
+	</footer>
+</body>
+</html>
